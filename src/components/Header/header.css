@@ -1,0 +1,13 @@
+.headerCabuloso {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(239, 187, 113),
+    rgba(255, 0, 0, 0.798)
+  );
+  height: 100%;
+  width: 100%;
+  padding: 17.5px;
+  color: rgb(43, 227, 227);
+}

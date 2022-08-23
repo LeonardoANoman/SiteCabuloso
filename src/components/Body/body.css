@@ -1,0 +1,24 @@
+.contador {
+  text-align: center;
+}
+
+.recorde {
+  text-align: center;
+  margin-top: 85%;
+}
+
+.fumarEBom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.separadorFodase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vermelho {
+  color: red;
+}
