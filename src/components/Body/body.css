@@ -22,3 +22,9 @@
 .vermelho {
   color: red;
 }
+
+.noMobile {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+}
