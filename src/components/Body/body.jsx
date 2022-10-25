@@ -4,7 +4,7 @@ import Fumar2 from "../../img/fumar2.jpeg";
 
 const Body = () => {
   const getDiasSemFumar = () => {
-    const ultimoDia = new Date(2022, 9, 24, 10, 3, 0);
+    const ultimoDia = new Date(2022, 10, 25, 10, 3, 0);
     const hoje = new Date();
     const diasSemFumar = hoje.getTime() - ultimoDia.getTime();
     const dias = new Date(diasSemFumar).getDate();
@@ -12,7 +12,7 @@ const Body = () => {
   };
 
   const getRecorde = () => {
-    const recorde = 5;
+    const recorde = 31;
     const diasSemFumar = getDiasSemFumar();
     if (diasSemFumar > recorde) {
       return diasSemFumar;
